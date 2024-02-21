@@ -298,21 +298,21 @@ address {
 /* ---------------------------------------- */
 /* ----------------Section 4------------------------ */
 .portfolio-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    padding-top: 120px; 
+    padding-bottom: 120px
 }
 .portfolio{
     padding-top: 120px; 
     padding-bottom: 120px
 }
 .title-portfolio {
-    margin-bottom: 8px;
     color: var(--Dark);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
