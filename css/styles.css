@@ -314,12 +314,13 @@ address {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-
+.portfolio-name{
+    margin-bottom: 8px
+}
 .portfolio-list {
-    row-gap: 48px;
     flex-wrap: wrap;
     display: flex;
-    gap: 24px;
+    row-gap: 48px;
     flex-basis: calc(100% / 3);
 }
 
