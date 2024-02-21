@@ -298,7 +298,8 @@ address {
 /* ---------------------------------------- */
 /* ----------------Section 4------------------------ */
 .portfolio-container {
-    padding-bottom: 120px;
+    padding-top: 120px; 
+    padding-bottom: 120px
 }
 
 .title-portfolio {
