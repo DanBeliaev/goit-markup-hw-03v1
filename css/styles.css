@@ -311,22 +311,23 @@ address {
 
 .footer {
     background-color: var(--Dark);
-    padding: 100px 0 100px 156px;
+    padding: 100px 0
 }
 
 .footer .stft {
     color: var(--Light);
 }
 
-.footer-text {
+.footerparagraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--Accent);
     margin-top: 16px;
-    width: 264px;
+    max-width: 264px;
 }
 
 .logoft {
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -335,6 +336,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--Primary-Brand);
+    margin-bottom: 16px;
 }
 
 
