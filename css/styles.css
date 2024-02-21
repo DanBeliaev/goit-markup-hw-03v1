@@ -170,17 +170,24 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     min-width: 496px;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     font-size: 56px;
     line-height: 1.07;
 }
 
 .sectfirst-button {
+    border-radius: 4px;
+    background-color: #4d5ae5;;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    display: block;
     font-weight: 500;
     letter-spacing: 0.04em;
     padding: 16px 32px;
     margin-top: 48px;
+    cursor: pointer;
 }
 
 
