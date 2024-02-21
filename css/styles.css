@@ -230,6 +230,7 @@ address {
 }
 
 .advantages-name {
+    margin-bottom: 8px;
     color: var(--Dark);
     font-weight: 500;
     font-size: 20px;
